@@ -7,8 +7,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "prisma:dev:deploy": "prisma migrate deploy",
-    "db:dev:rm": "docker-compose rm dev-db mysqldb redis app",
-    "db:dev:up": "docker-compose up dev-db mysqldb redis app",
+    "db:dev:rm": "docker-compose rm dev-db mysqldb redis",
+    "db:dev:up": "docker-compose up dev-db mysqldb redis",
     "app:dev:up": "docker-compose up app",
     "db:dev:restart": "yarn db:dev:rm && yarn db:dev:up && yarn prisma:dev:deploy",
     "prisma:test:deploy": "dotenv -e .env.test -- prisma migrate deploy",

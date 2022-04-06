@@ -44,7 +44,9 @@ Para correr la API localmente necesita ejecutar el siguiente comando:
 
 ```bash
 
+yarn
 yarn db:dev:restart
+yarn start:dev
 
 ```
 
