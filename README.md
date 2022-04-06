@@ -39,6 +39,10 @@ Para la seguridad de la aplicación se implementó Cors y Json Web Token/Json Re
 
 ### Entorno local
 
+Copiar los 2 archivos de variables de entorno en la raiz del proyecto.
+
+Los 2 archivos de variables de entorno se adjuntar en el correo.
+
 Para correr la API localmente necesita ejecutar el siguiente comando:
 
 
