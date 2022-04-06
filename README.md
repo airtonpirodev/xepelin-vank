@@ -110,20 +110,20 @@ Permite obtener la lista de las facturas. Puede recibir los siguientes filtros o
 
 La tarea programada que actualiza las facturas se encuentra en el archivo **invoices.task.ts**
 
-El horario de ejecucion es a la  media noche 00:00 horas
+El horario de ejecución es a la media noche 00:00 horas(dependiendo de la hora de la máquina donde se aloja).
 
 ### Pendientes
 
 1.- Desplegar App en Paas.
 
-2.- Implementacion de busqueda avanzada.
+2.- Implementación de búsqueda avanzada.
 
 3.- Lectura de archivos por trozos.
 
-4.- Limitar endpoint de creacion de usuario para JWT con el objetivo de limitar accesos.
+4.- Limitar endpoint de creación de usuario para JWT con el objetivo de limitar accesos.
 
 5.- Alertar de cargues por algun canal, puede ser slack.
 
-6.- Generar un logica de base de datos que permita hacer rollback por si el cliente realiza un cargue erroneo, puede una tabla de cargues que este relacionada a invoices.
+6.- Generar un algoritmo de base de datos que permita hacer rollback por si el cliente realiza un cargue erroneo, puede una tabla de cargues que este relacionada a invoices.
 
-7.- Agregar limitacion con respecto a los cors para que solo se ejecute de determinado dominio.
+7.- Agregar limitación con respecto a los cors para que solo se ejecute de determinado dominio.
